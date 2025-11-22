@@ -26,6 +26,7 @@ print(embs[0][:10])
 #
 
 def cosine_sim(a, b):
+    # cos = (a · b) / (||a|| ||b||)
     return float(np.dot(a, b) / (norm(a) * norm(b)))
 
 for i, s1 in enumerate(sentences):
