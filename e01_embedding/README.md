@@ -9,6 +9,7 @@ pip install sentence-transformers gensim numpy
 pip install datasets
 pip install 'accelerate>=0.26.0'
 pip install annoy
+pip install hnswlib
 pip freeze > requirements.txt
 deactivate
 ```
