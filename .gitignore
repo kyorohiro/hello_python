@@ -2,6 +2,10 @@
 .env
 __pycache__/
 .venv/
+.venv309/
+.venv310/
+.venv311/
+.venv312/
 my-cosine-model/
 checkpoints/
 doc2vec-demo.model
